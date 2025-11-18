@@ -1,0 +1,13 @@
+<suite name="Wuzzuf Test Cases">
+    <test name="Register Test Cases">
+        <classes>
+            <class name="Tests.registerTest"/>
+            <class name="Tests.infoTest"/>
+            <class name="Tests.educationTest"/>
+            <class name="Tests.experienceTest"/>
+            <class name="Tests.expertiseTest"/>
+            <class name="Tests.careerTest"/>
+            <class name="Tests.homeTest"/>
+        </classes>
+    </test>
+</suite>
