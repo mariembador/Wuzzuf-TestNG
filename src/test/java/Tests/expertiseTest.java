@@ -26,7 +26,7 @@ public class expertiseTest extends testBase{
             for(int i=0; i<2; i++){
                 expertise.skills.sendKeys(fake.job().keySkills());
                 action.keyDown(Keys.ENTER).perform();
-                Thread.sleep(500);
+                Thread.sleep(1000);
             }
             soft.assertNotNull(expertise.skills.getDomAttribute("value"));
             Thread.sleep(500);

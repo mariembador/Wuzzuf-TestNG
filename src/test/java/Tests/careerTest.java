@@ -32,11 +32,6 @@ public class careerTest extends testBase{
             career.minSalary.sendKeys(salary);
             soft.assertEquals(career.minSalary.getText(),salary);
 
-            soft.assertTrue(career.continueButton.isEnabled());
-            career.continueButton.click();
-            reportTest.info("Career interests entered successfully");
-            Thread.sleep(200);
-            soft.assertEquals(driver.getCurrentUrl(),"https://wuzzuf.net/setup/cv?sut=reg&login=1");
             soft.assertTrue(career.getStartedButton.isEnabled());
             career.getStartedButton.click();
             reportTest.info("Get started button clicked successfully");

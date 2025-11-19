@@ -26,6 +26,7 @@ public class experienceTest extends testBase{
                 String company = fake.company().name();
                 experience.companyName.sendKeys(company);
                 soft.assertEquals(experience.companyName.getText(),company);
+                action.keyDown(Keys.ENTER).perform();
                 Thread.sleep(1000);
 
                 experience.jobCategory.click();

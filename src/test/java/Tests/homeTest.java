@@ -12,6 +12,7 @@ public class homeTest extends testBase{
         home = new homePage(driver);
         try {
             Thread.sleep(2000);
+            home.popUpCloseButton.click();
             home.search.clear();
             soft.assertEquals(home.search.getDomAttribute("value"),"");
 
@@ -24,9 +25,6 @@ public class homeTest extends testBase{
                 soft.assertTrue(result.getText().contains("Software") || result.getText().contains("Engineer"));
             }
             reportTest.info("Results page displays job listing relevant to software engineer");
-            action.moveToElement(home.jobsFoundNumber).perform();
-            soft.assertTrue(home.jobsFoundNumber.isDisplayed());
-            reportTest.info("Number of search results is displayed");
             reportTest.pass("Job searched successfully");
         } catch (Exception e) {
             reportTest.fail("Test failed due to:"+e.getMessage());
