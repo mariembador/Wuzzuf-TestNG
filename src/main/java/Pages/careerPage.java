@@ -12,7 +12,7 @@ public class careerPage {
         PageFactory.initElements(driver,this);
     }
 
-    @FindBy(xpath = "//p[@class=\"css-15yw7ce\"]")
+    @FindBy(xpath = "//p[@class=\"css-qqj41n\"]")
     public WebElement tellUsAboutYourCareerTitle;
 
     @FindBy(xpath = "//div[@name=\"careerLevel\"]")
@@ -33,9 +33,6 @@ public class careerPage {
     @FindBy(xpath = "//input[@name=\"minimumSalary\"]")
     public WebElement minSalary;
 
-    @FindBy(xpath = "//button[@class=\"css-2dg8nw ezfki8j0\"]")
-    public WebElement continueButton;
-
-    @FindBy(xpath = "//button[@class=\"css-pkb4uu ezfki8j0\"]")
+    @FindBy(xpath = "//button[@class=\"css-i3qizm ezfki8j0\"]")
     public WebElement getStartedButton;
 }

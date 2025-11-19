@@ -9,15 +9,15 @@ public class infoPage {
     public infoPage(WebDriver driver){
         PageFactory.initElements(driver,this);
     }
-    @FindBy(xpath = "//p[@class=\"css-15yw7ce\"]")
+    @FindBy(xpath = "//p[@class=\"css-qqj41n\"]")
     public WebElement tellUsAboutYourselfTitle;
-    @FindBy(xpath = "//div[@class=\"row\"]/div[1]//input[@id=\"react-select-2-input\"]")
+    @FindBy(xpath = "//input[@id=\"react-select-2-input\"]")
     public WebElement birthDay;
     @FindBy(xpath = "//div[@class=\"row\"]/div[1]//div[@class=\"css-11r7ebr-menu\"]")
     public WebElement dayOptions;
-    @FindBy(xpath = "//div[@class=\"row\"]/div[2]//input[@id=\"react-select-3-input\"]")
+    @FindBy(xpath = "//input[@id=\"react-select-3-input\"]")
     public WebElement birthMonth;
-    @FindBy(xpath = "//div[@class=\"row\"]/div[3]//input[@id=\"react-select-4-input\"]")
+    @FindBy(xpath = "//input[@id=\"react-select-4-input\"]")
     public WebElement birthYear;
 
     @FindBy(xpath = "//input[@value=\"female\"]")

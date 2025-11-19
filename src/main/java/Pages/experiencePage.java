@@ -12,12 +12,12 @@ public class experiencePage {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(xpath = "//p[@class=\"css-15yw7ce\"]")
+    @FindBy(xpath = "//p[@class=\"css-qqj41n\"]")
     public WebElement tellUsAboutYourExperienceTitle;
 
-    @FindBy(xpath = "//div[@class=\"css-1i2epuz e1uslken1\"]")
+    @FindBy(xpath = "//div[@class=\"css-1c8xh7v e1uslken1\"]")
     public WebElement experienceYears;
-    @FindBy(xpath = "//div[@class=\" css-1nxrfj4-singleValue\"]")
+    @FindBy(xpath = "//div[@class=\" css-1yygljd-singleValue\"]")
     public WebElement experienceValue;
 
     @FindBy(xpath = "//input[@name=\"jobTitle\"]")
@@ -48,6 +48,6 @@ public class experiencePage {
     @FindBy(xpath = "//button[@name=\"Save_Work_Experience\"]")
     public WebElement saveButton;
 
-    @FindBy(xpath = "//button[@class=\"css-2dg8nw ezfki8j0\"]")
+    @FindBy(xpath = "//button[@class=\"css-1bmbjz3 ezfki8j0\"]")
     public WebElement continueButton;
 }

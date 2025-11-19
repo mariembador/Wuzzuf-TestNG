@@ -11,7 +11,7 @@ public class expertisePage {
     public expertisePage(WebDriver driver){
         PageFactory.initElements(driver, this);
     }
-    @FindBy(xpath = "//p[@class=\"css-15yw7ce\"]")
+    @FindBy(xpath = "//p[@class=\"css-qqj41n\"]")
     public WebElement tellUsAboutYourExpertiseTitle;
 
     @FindBy(xpath = "(//input[@aria-autocomplete='list'])[1]")
@@ -21,12 +21,12 @@ public class expertisePage {
     @FindBy(xpath = "(//input[@aria-autocomplete='list'])[2]")
     public WebElement proficiency;
 
-    @FindBy(xpath = "//button[@class=\"css-ksyb00 ezfki8j0\"]")
+    @FindBy(xpath = "//button[@class=\"css-1qcc2iu ezfki8j0\"]")
     public WebElement addButton;
 
     @FindBy(xpath = "(//input[@aria-autocomplete='list'])[3]")
     public WebElement skills;
 
-    @FindBy(xpath = "//button[@class=\"css-2dg8nw ezfki8j0\"]")
+    @FindBy(xpath = "//button[@class=\"css-1bmbjz3 ezfki8j0\"]")
     public WebElement continueButton;
 }

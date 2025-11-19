@@ -12,7 +12,7 @@ public class educationPage {
         PageFactory.initElements(driver,this);
     }
 
-    @FindBy(xpath = "//p[@class=\"css-15yw7ce\"]")
+    @FindBy(xpath = "//p[@class=\"css-qqj41n\"]")
     public WebElement tellUsAboutYourEducationTitle;
 
     @FindBy(xpath = "//div[@name=\"currentEducationLevel\"]/div")
@@ -21,30 +21,30 @@ public class educationPage {
     @FindBy(xpath = "//input[@class=\"css-1a96k50 ek82ord0\"]")
     public WebElement fieldOfStudy;
 
-    @FindBy(xpath = "//input[@id=\"react-select-14-input\"]")
+    @FindBy(xpath = "(//div[@class=\"css-1dnjvql\"]//input)[1]")
     public WebElement university;
 
-    @FindBy(xpath = "//input[@id=\"react-select-15-input\"]")
+    @FindBy(xpath = "(//div[@class=\"css-1dnjvql\"]//input)[2]")
     public WebElement graduationYear;
 
-    @FindBy(xpath = "//input[@id=\"react-select-16-input\"]")
+    @FindBy(xpath = "(//div[@class=\"css-1dnjvql\"]//input)[3]")
     public WebElement grade;
 
     @FindBy(xpath = "//input[@name=\"school\"]")
     public WebElement schoolName;
 
-    @FindBy(xpath = "//input[@id=\"react-select-17-input\"]")
+    @FindBy(xpath = "(//div[@class=\"css-1dnjvql\"]//input)[1]")
     public WebElement certificate;
 
-    @FindBy(xpath = "//input[@id=\"react-select-18-input\"]")
+    @FindBy(xpath = "(//div[@class=\"css-1dnjvql\"]//input)[2]")
     public WebElement language;
 
-    @FindBy(xpath = "//input[@id=\"react-select-19-input\"]")
+    @FindBy(xpath = "(//div[@class=\"css-1dnjvql\"]//input)[3]")
     public WebElement schoolGraduationYear;
 
-    @FindBy(xpath = "//input[@id=\"react-select-20-input\"]")
+    @FindBy(xpath = "(//div[@class=\"css-1dnjvql\"]//input)[4]")
     public WebElement schoolGrade;
 
-    @FindBy(xpath = "//button[@class=\"css-2dg8nw ezfki8j0\"]")
+    @FindBy(xpath = "//button[@class=\"css-1bmbjz3 ezfki8j0\"]")
     public WebElement continueButton;
 }
